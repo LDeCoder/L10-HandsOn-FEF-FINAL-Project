@@ -20,7 +20,7 @@ Include a header with your name and your job title (ie. Web Developer, Full Stac
 An image of yourself so everyone knows who you are.
 
  
-Clickable GitHub icon linking to your GitHub.
+<!-- Clickable GitHub icon linking to your GitHub. -->  DONE!
 
 Clickable LinkedIn icon linking to your LinkedIn.
 
