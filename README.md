@@ -32,8 +32,8 @@ List your tech-related skills.
 
 <!-- Dynamically list your GitHub repositories using an AJAX request. --> done!! Saved!!
 
-You will need the following API endpoint with your username. https://api.github.com/users/YOURUSERNAME/repos
-Hint! Post the above into the web browser and you will see all of your repos listed as a JSON object
+<!-- You will need the following API endpoint with your username. https://api.github.com/users/YOURUSERNAME/repos
+Hint! Post the above into the web browser and you will see all of your repos listed as a JSON object -->
 
 Include a footer that sticks to the bottom of the screen, commonly referred to as a sticky footer.
 The footer should contain contact information with an email icon and an email address listed next to it.
