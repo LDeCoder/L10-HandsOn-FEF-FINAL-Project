@@ -4,36 +4,103 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
 
+    <title>Lori Davis | About Me</title>
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    link cdn for jquery
-
 </head>
 <body>
 
-
-    <ul id="repositories">
-    </ul>
-    <button id = "gitIcon" onclick ="loadRepo()"><img src="GIT.png">Click to see my Repos!</button>
-
-
-    <header>About Me - Name/Job Title</header>
-    <p>Image of me</p>
-    <p>GitHub Icon - DONE!</p><p>dynamic list w/ AJAX - DONE!</p>
-    <p>LinkedIn icon</p>
-    <p>FB, Instagram, etc. icons</p>
-    <p>icons magnify - showing animation in CSS</p> - HOVER!
-
-    <p>MY TECH SKILLS</p>
-    <p>Add style IN CSS baby! LES DO THIS!</p>
-   <footer>Gotta Be sticky!- TRY BOOTSTRAP OR FLEXBOX - I THINK IT'S CODE!! sticky - Contact info with email icon and email address next to it - glyphicon</footer> 
+    <header>
+        <div class="jumbotron text-center">
+                <a><img src="FINALprojectIMAGES/logoBV.png"></a> 
+                <h1>Lori Davis</h1> 
+                <p>Coder Extraoridinaire!</p>
+            </div>
+    </header>
 
 
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-10">
+            <h3>My Tech Skills</h3> 
+                <ul>
+                    <li>Pages/Word</li>
+                    <li>Numbers/Excel</li>
+                    <li>Keynote/Powerpoint</li>
+                    <li>Super-fast typist/10-key</li>
+                    <li>Flexbox</li>
+                    <li>Bootstrap</li>
+                    <li>Wordpress</li>
+                    <li>jQuery</li>
+                </ul>
+            </div>
+        <div class="btn-group align-right">
+            <div class="col-sm-2">
+                <div class="zoom2">
+                     <button>
+                        <a href="https://www.linkedin.com/feed"><img src="FINALprojectIMAGES/LinkedIN.png" width=50px height=50px></a>
+                    </button>
+                </div>
+                <div class="zoom2">
+                    <button>
+                        <a href="https://www.instagram.com/?hl=en"><img src="FINALprojectIMAGES/INSTAGRAM.png"width=50px height =50px></a>
+                    </button>
+                </div>
+                <div class="zoom2">
+                     <button>
+                        <a href="https://www.facebook.com/lori.davis.5811"><img src="FINALprojectIMAGES/FACEBOOK.png"width=50px height =50px>
+                    </button>
+                </div>
+                 <div class="zoom2">
+                    <button>
+                        <a href="spotify:album:5IGjIGu16MS3cu4CxLsXn3"><img src="FINALprojectIMAGES/SPOTIFY.png" width=50px height =50px>
+                    </button>
+                </div>
+               
+            </div>
+        </div>
+       </div>
+    </div>
+
+<div class="container2"> 
+        <div class="col-sm-6">
+                <h3>See My Code:</h3>
+                <div>
+                        <ul id="repositories">
+                        </ul>
+                        <button id = "gitIcon" onclick ="loadRepo()"><img src="FINALprojectIMAGES/GITiconSQ.png" width=200px height =200px></button>GIT my Repos!
+                 </div>              
+        </div>
+    
+    
+        <div class="col-sm-6">
+            <div class="me">
+                <img src="FINALprojectIMAGES/meBackgroundPic.png">    
+            </div>
+        </div>
+    </div>
+</div>
 
 
 
 
+    
+     <footer>
+        <nav class="navbar navbar-light navbar-fixed-bottom align-right">
+            <p>Lori Davis   |   1906 Cherokee Trail Dalhart, Tx  79022   |   ldavis1005@gmail.com<span class="glyphicon glyphicon-envelope"></span></p>
+        </nav>
+    </footer>
+      
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="jquery.min.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
